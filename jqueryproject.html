@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jquery.css">
+    <title>jQuery-app</title>
+</head>
+<body>
+    <h1 id="draggable">To-do app with jQuery</h1>
+    <form id="1">
+        <input onclick="raivaa()" onblur="palauta()" type="text" id="syöte" placeholder="Mitä haluaisit lisätä?">
+        <button onclick="lisää()">Lisää</button>
+    </form>
+    <ul id="lista"></ul>
+    <div id="napit" style="display: none;">
+        <button id="resetnappi" onclick="tyhjennäLista()">Tyhjennä lista</button>
+        <button onclick="näytäKaikki()">Näytä kaikki</button>
+        <button onclick="näytäTehdyt()">Näytä vain tehdyt</button>
+        <button onclick="näytäTekemättömät()">Näytä vain tekemättömät</button>
+    </div>
+<script src="jquery.js"></script>
+</body>
+</html>

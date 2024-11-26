@@ -1,0 +1,54 @@
+body {   
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    font-family: Arial, sans-serif;
+}
+
+form {
+    align-items: center;  
+    justify-content: center;  
+    margin: 0 auto;      
+    display: flex;    
+}
+
+h1 {
+    text-align: center; 
+}
+
+.done span{
+    text-decoration: line-through;
+    color: #888;
+}
+
+.deletebutton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #2C3E50;
+    margin-bottom: 10px;
+    border: 1px solid #BDC3C7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#napit {
+    justify-content: center; 
+}
+
+#napit button {
+    margin: 10px 10px 0 0;
+}
+  
