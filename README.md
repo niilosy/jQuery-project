@@ -16,9 +16,7 @@ Technologies
 
 Setup
 
-Credits
 
-License
 
 About The App
 
