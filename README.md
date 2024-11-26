@@ -8,16 +8,6 @@ Workload:
 
 I worked on and off for half a weeks time on this project.
 
-Table of Content:
-
-About The App
-
-Technologies
-
-Setup
-
-
-
 About The App
 
 This is a update off my previous to-do app with more animations and written now with jQuery.
